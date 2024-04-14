@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <deployment version="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="3Vy-Ef-0FE">
+            <objects>
+                <viewController id="2MR-aF-hDC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aJi-Vf-wEJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="eLE-ee-cpH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uNg-CL-lQx">
+                        <rect key="frame" x="0.0" y="0.0" width="812" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreenBackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="QBO-0m-8hY">
+                                <rect key="frame" x="0.0" y="0.0" width="812" height="375"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="QBO-0m-8hY" firstAttribute="leading" secondItem="uNg-CL-lQx" secondAttribute="leading" id="Hq1-r5-Jp7"/>
+                            <constraint firstItem="QBO-0m-8hY" firstAttribute="top" secondItem="uNg-CL-lQx" secondAttribute="top" id="feX-or-0Eb"/>
+                            <constraint firstAttribute="bottom" secondItem="QBO-0m-8hY" secondAttribute="bottom" id="pH0-ON-aVZ"/>
+                            <constraint firstAttribute="trailing" secondItem="QBO-0m-8hY" secondAttribute="trailing" id="uEo-M1-gZl"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nSj-UK-nMg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="56" y="204"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LaunchScreenBackground.png" width="2796" height="1290"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		177B2A0D06A047205B6876F375651363 /* Pods-WastelandOfWar-desktop-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80A02E8F48AD2A56BD1B8BA0F5286901 /* Pods-WastelandOfWar-desktop-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78BA5D5A3D326409323C27EBFD5737AB /* Pods-WastelandOfWar-mobile-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED7163E491C73B8292B7B2919E05C200 /* Pods-WastelandOfWar-mobile-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		877EA4A804AA20B7ADDD7FC57B1AF1E4 /* Pods-WastelandOfWar-mobile-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A92C6FE2BE50933B9887E8862AC6CB /* Pods-WastelandOfWar-mobile-dummy.m */; };
+		AB285630750E0A08AAFF9F69A0E89730 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B2391C5414D29DBDAE8C63580D2E3EC8 /* Pods-WastelandOfWar-desktop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B53D14014D7444D471DBAB00686510 /* Pods-WastelandOfWar-desktop-dummy.m */; };
+		D55B11F76578DAFA54452C7E97494D79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FDC64C5A0238A249D3370CD2D835958 /* Pods-WastelandOfWar-desktop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WastelandOfWar-desktop.release.xcconfig"; sourceTree = "<group>"; };
+		12BD7C8DBD01C6D0E242465E1050448E /* Pods-WastelandOfWar-desktop-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WastelandOfWar-desktop-Info.plist"; sourceTree = "<group>"; };
+		46D7B2401452A42B1B35FE1AD9F97E75 /* Pods-WastelandOfWar-desktop-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WastelandOfWar-desktop-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5DDD01956A89634FF301A6B481E7B654 /* Pods-WastelandOfWar-mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WastelandOfWar-mobile.debug.xcconfig"; sourceTree = "<group>"; };
+		5EAA718A69515869E954E95CF7DC34E5 /* Pods-WastelandOfWar-mobile-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WastelandOfWar-mobile-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		738F2772492BCA89140166E8EDCEDB54 /* Pods-WastelandOfWar-mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WastelandOfWar-mobile.release.xcconfig"; sourceTree = "<group>"; };
+		80A02E8F48AD2A56BD1B8BA0F5286901 /* Pods-WastelandOfWar-desktop-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WastelandOfWar-desktop-umbrella.h"; sourceTree = "<group>"; };
+		8953CA91C1D7385B6A8B1E9A5A38EC27 /* Pods-WastelandOfWar-desktop.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WastelandOfWar-desktop.modulemap"; sourceTree = "<group>"; };
+		90B53D14014D7444D471DBAB00686510 /* Pods-WastelandOfWar-desktop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WastelandOfWar-desktop-dummy.m"; sourceTree = "<group>"; };
+		92C7CC829B351C11F8BAB9B433EDF7E3 /* Pods-WastelandOfWar-desktop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WastelandOfWar-desktop.debug.xcconfig"; sourceTree = "<group>"; };
+		968FB0EA915FCF5F790244AEBA8E0564 /* Pods-WastelandOfWar-mobile-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WastelandOfWar-mobile-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE799DD8CD9D2C1D63AC67D2972FF2B5 /* Pods-WastelandOfWar-desktop */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WastelandOfWar-desktop"; path = Pods_WastelandOfWar_desktop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD6EE32629976CC96B0E4996314CA53 /* Pods-WastelandOfWar-mobile.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WastelandOfWar-mobile.modulemap"; sourceTree = "<group>"; };
+		D440BFA2FC4EAD495B73CEDF1E54C8BA /* Pods-WastelandOfWar-desktop-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WastelandOfWar-desktop-acknowledgements.plist"; sourceTree = "<group>"; };
+		D635E0250E824BD3DA73BA304457C108 /* Pods-WastelandOfWar-mobile-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WastelandOfWar-mobile-acknowledgements.plist"; sourceTree = "<group>"; };
+		E5A92C6FE2BE50933B9887E8862AC6CB /* Pods-WastelandOfWar-mobile-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WastelandOfWar-mobile-dummy.m"; sourceTree = "<group>"; };
+		ED7163E491C73B8292B7B2919E05C200 /* Pods-WastelandOfWar-mobile-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WastelandOfWar-mobile-umbrella.h"; sourceTree = "<group>"; };
+		F63E4A18BAE78FE8A3377E454F66041E /* Pods-WastelandOfWar-mobile */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WastelandOfWar-mobile"; path = Pods_WastelandOfWar_mobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C6FAC88E85203547F542A874D052024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB285630750E0A08AAFF9F69A0E89730 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D344096820B3A394B0E281143900103 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D55B11F76578DAFA54452C7E97494D79 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		242CDC606D61EDD6F109218A7ED16248 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE799DD8CD9D2C1D63AC67D2972FF2B5 /* Pods-WastelandOfWar-desktop */,
+				F63E4A18BAE78FE8A3377E454F66041E /* Pods-WastelandOfWar-mobile */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8ABDF56B8BC6A87D34A33A3012F12978 /* Pods-WastelandOfWar-mobile */ = {
+			isa = PBXGroup;
+			children = (
+				CCD6EE32629976CC96B0E4996314CA53 /* Pods-WastelandOfWar-mobile.modulemap */,
+				5EAA718A69515869E954E95CF7DC34E5 /* Pods-WastelandOfWar-mobile-acknowledgements.markdown */,
+				D635E0250E824BD3DA73BA304457C108 /* Pods-WastelandOfWar-mobile-acknowledgements.plist */,
+				E5A92C6FE2BE50933B9887E8862AC6CB /* Pods-WastelandOfWar-mobile-dummy.m */,
+				968FB0EA915FCF5F790244AEBA8E0564 /* Pods-WastelandOfWar-mobile-Info.plist */,
+				ED7163E491C73B8292B7B2919E05C200 /* Pods-WastelandOfWar-mobile-umbrella.h */,
+				5DDD01956A89634FF301A6B481E7B654 /* Pods-WastelandOfWar-mobile.debug.xcconfig */,
+				738F2772492BCA89140166E8EDCEDB54 /* Pods-WastelandOfWar-mobile.release.xcconfig */,
+			);
+			name = "Pods-WastelandOfWar-mobile";
+			path = "Target Support Files/Pods-WastelandOfWar-mobile";
+			sourceTree = "<group>";
+		};
+		BBAAA91337D4E7306BA049B15425E91D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDC3651E71D071B03CB0D441E3EF0994 /* Pods-WastelandOfWar-desktop */,
+				8ABDF56B8BC6A87D34A33A3012F12978 /* Pods-WastelandOfWar-mobile */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BDC3651E71D071B03CB0D441E3EF0994 /* Pods-WastelandOfWar-desktop */ = {
+			isa = PBXGroup;
+			children = (
+				8953CA91C1D7385B6A8B1E9A5A38EC27 /* Pods-WastelandOfWar-desktop.modulemap */,
+				46D7B2401452A42B1B35FE1AD9F97E75 /* Pods-WastelandOfWar-desktop-acknowledgements.markdown */,
+				D440BFA2FC4EAD495B73CEDF1E54C8BA /* Pods-WastelandOfWar-desktop-acknowledgements.plist */,
+				90B53D14014D7444D471DBAB00686510 /* Pods-WastelandOfWar-desktop-dummy.m */,
+				12BD7C8DBD01C6D0E242465E1050448E /* Pods-WastelandOfWar-desktop-Info.plist */,
+				80A02E8F48AD2A56BD1B8BA0F5286901 /* Pods-WastelandOfWar-desktop-umbrella.h */,
+				92C7CC829B351C11F8BAB9B433EDF7E3 /* Pods-WastelandOfWar-desktop.debug.xcconfig */,
+				0FDC64C5A0238A249D3370CD2D835958 /* Pods-WastelandOfWar-desktop.release.xcconfig */,
+			);
+			name = "Pods-WastelandOfWar-desktop";
+			path = "Target Support Files/Pods-WastelandOfWar-desktop";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				242CDC606D61EDD6F109218A7ED16248 /* Products */,
+				BBAAA91337D4E7306BA049B15425E91D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0246433CFD1EA0C245CF63CBF35A2BFE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177B2A0D06A047205B6876F375651363 /* Pods-WastelandOfWar-desktop-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D034AC7DAA407C6F8A4B6648B8333E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78BA5D5A3D326409323C27EBFD5737AB /* Pods-WastelandOfWar-mobile-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7E3740C61BD5095FD43DAB06BBC53CB4 /* Pods-WastelandOfWar-desktop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EC96C9313D73E8A5658EE0CA9E671EB /* Build configuration list for PBXNativeTarget "Pods-WastelandOfWar-desktop" */;
+			buildPhases = (
+				0246433CFD1EA0C245CF63CBF35A2BFE /* Headers */,
+				7B7B1C1D791D08F7105EB2E0A9525350 /* Sources */,
+				1C6FAC88E85203547F542A874D052024 /* Frameworks */,
+				737E88707998561E8B14058A3F4E76C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WastelandOfWar-desktop";
+			productName = Pods_WastelandOfWar_desktop;
+			productReference = AE799DD8CD9D2C1D63AC67D2972FF2B5 /* Pods-WastelandOfWar-desktop */;
+			productType = "com.apple.product-type.framework";
+		};
+		90B579D805C9661D7F419EEF78FE6C06 /* Pods-WastelandOfWar-mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 535445A32B2D37C35ED3A0F3844FA399 /* Build configuration list for PBXNativeTarget "Pods-WastelandOfWar-mobile" */;
+			buildPhases = (
+				64D034AC7DAA407C6F8A4B6648B8333E /* Headers */,
+				C44C6D3E5624907253BE55EBE54CA407 /* Sources */,
+				9D344096820B3A394B0E281143900103 /* Frameworks */,
+				302DF198175CCAF2573BDE67255707FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WastelandOfWar-mobile";
+			productName = Pods_WastelandOfWar_mobile;
+			productReference = F63E4A18BAE78FE8A3377E454F66041E /* Pods-WastelandOfWar-mobile */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 242CDC606D61EDD6F109218A7ED16248 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E3740C61BD5095FD43DAB06BBC53CB4 /* Pods-WastelandOfWar-desktop */,
+				90B579D805C9661D7F419EEF78FE6C06 /* Pods-WastelandOfWar-mobile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		302DF198175CCAF2573BDE67255707FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		737E88707998561E8B14058A3F4E76C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B7B1C1D791D08F7105EB2E0A9525350 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2391C5414D29DBDAE8C63580D2E3EC8 /* Pods-WastelandOfWar-desktop-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44C6D3E5624907253BE55EBE54CA407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877EA4A804AA20B7ADDD7FC57B1AF1E4 /* Pods-WastelandOfWar-mobile-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		591ECE3412CC935E3D425EE974CC8029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FDC64C5A0238A249D3370CD2D835958 /* Pods-WastelandOfWar-desktop.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WastelandOfWar-desktop/Pods-WastelandOfWar-desktop-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WastelandOfWar-desktop/Pods-WastelandOfWar-desktop.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7702C57CCFDD1B29AFFC66EDE029C9CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 738F2772492BCA89140166E8EDCEDB54 /* Pods-WastelandOfWar-mobile.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WastelandOfWar-mobile/Pods-WastelandOfWar-mobile-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WastelandOfWar-mobile/Pods-WastelandOfWar-mobile.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE3AA0073411B07A1B00B3FDD9A10432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DDD01956A89634FF301A6B481E7B654 /* Pods-WastelandOfWar-mobile.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WastelandOfWar-mobile/Pods-WastelandOfWar-mobile-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WastelandOfWar-mobile/Pods-WastelandOfWar-mobile.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D83FCC0343D5E60C4F110EC9AFF434FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92C7CC829B351C11F8BAB9B433EDF7E3 /* Pods-WastelandOfWar-desktop.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WastelandOfWar-desktop/Pods-WastelandOfWar-desktop-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WastelandOfWar-desktop/Pods-WastelandOfWar-desktop.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		535445A32B2D37C35ED3A0F3844FA399 /* Build configuration list for PBXNativeTarget "Pods-WastelandOfWar-mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3AA0073411B07A1B00B3FDD9A10432 /* Debug */,
+				7702C57CCFDD1B29AFFC66EDE029C9CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EC96C9313D73E8A5658EE0CA9E671EB /* Build configuration list for PBXNativeTarget "Pods-WastelandOfWar-desktop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D83FCC0343D5E60C4F110EC9AFF434FF /* Debug */,
+				591ECE3412CC935E3D425EE974CC8029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
